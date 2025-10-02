@@ -1,0 +1,14 @@
+node_modules 
+npm-debug.log
+.git
+.gitignore
+
+  Construimos la imagen localmente, en el CMD:
+
+docker build -t mi-app-docker .
+
+  Ejución del contenedor
+docker run -p 3000:3000 -d mi-app-docker
+
+   mostrar la imagen en:
+http://localhost:3000
