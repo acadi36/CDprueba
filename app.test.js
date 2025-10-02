@@ -9,6 +9,6 @@ describe('GET /', () => {
   it('debería responder con el texto correcto', async () => {
     const response = await request(app).get('/');
     expect(response.statusCode).toBe(200);
-    expect(response.text).toContain('¡PRUEBA 1 DE DESPLIEGUE CONTINUO CD!');
+    expect(response.text).toContain('¡PRUEBA 2 DE DESPLIEGUE CONTINUO CD!');
   });
 });
