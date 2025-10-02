@@ -3,7 +3,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-  res.send('¡PRUEBA 1 DE DESPLIEGUE CONTINUO CD!');
+  res.send('¡PRUEBA 2 DE DESPLIEGUE CONTINUO CD!');
 });
 
 const server = app.listen(port, () => {
