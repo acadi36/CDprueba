@@ -35,8 +35,3 @@ jobs:
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
-
-  En el CMD, Ahora el CI/CD hará el trabajo de desplegar lo que tenemos a git hub y sea publico.:
-git add .
-git commit -m "Añadir Dockerfile y flujo de trabajo de CI/CD" 
-git push
